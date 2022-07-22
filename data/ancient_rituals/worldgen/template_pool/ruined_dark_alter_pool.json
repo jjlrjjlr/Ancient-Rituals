@@ -1,0 +1,15 @@
+{
+    "name": "ancient_rituals:ruined_dark_alter_pool",
+    "fallback": "minecraft:empty",
+    "elements": [
+        {
+            "weight": 1,
+            "element": {
+                "element_type": "minecraft:single_pool_element",
+                "projection": "rigid",
+                "processors": "minecraft:empty",
+                "location": "ancient_rituals:ruined_alters/ruined_dark_alter"
+            }
+        }
+    ]
+}

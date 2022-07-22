@@ -1,0 +1,1 @@
+execute as @e[type=minecraft:marker,name="ruined_dark_alter_core"] at @s run function ancient_rituals:ruined_dark_alter/tick

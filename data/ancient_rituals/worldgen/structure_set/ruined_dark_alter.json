@@ -1,0 +1,15 @@
+{
+    "structures": [
+        {
+            "structure": "ancient_rituals:ruined_dark_alter",
+            "weight": 1
+        }
+    ],
+    "placement": {
+        "type": "minecraft:random_spread",
+        "spacing": 2,
+        "separation": 1,
+        "salt": 103006213,
+        "spread_type": "linear"
+    }
+}
