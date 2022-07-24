@@ -1,0 +1,46 @@
+{
+    "condition": "minecraft:alternative",
+    "terms": [
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:wheat",
+              "minecraft:carrots",
+              "minecraft:potatoes",
+              "minecraft:sweet_berry_bush",
+              "minecraft:beetroots"
+            ],
+            "state": {
+              "age": {
+                "min": 0,
+                "max": 2
+              }
+            }
+          }
+        }
+      },
+      {
+        "condition": "minecraft:location_check",
+        "offsetY": -1,
+        "predicate": {
+          "block": {
+            "blocks": [
+              "minecraft:wheat",
+              "minecraft:carrots",
+              "minecraft:potatoes"
+            ],
+            "state": {
+              "age": {
+                "min": 3,
+                "max": 6
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+  
